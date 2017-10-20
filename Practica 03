@@ -1,0 +1,24 @@
+#include <iostream>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char** argv) {
+	//int matriz1[];
+	//int matriz2[];
+	int tam1, tam2;
+	printf("Suma de matrices \n");
+	printf("De que tamaño quiere su primera matriz? Max20 \n");
+	scanf("%d",&tam1);
+	printf("De que tamaño quiere su segunda matriz? Max20 \n");
+	scanf("%d",&tam2);
+	
+	srand (time(NULL));
+	
+    for (i=0; i<=9; i++) {
+        numeroAleatorio[i] = rand()%29;
+    }
+	
+	return 0;
+}
